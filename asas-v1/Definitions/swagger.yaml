@@ -64,7 +64,7 @@ paths:
         optional: false
     patch:
       responses:
-        "400":
+        "200":
           description: OK
       security:
        -
