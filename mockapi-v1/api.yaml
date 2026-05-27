@@ -131,7 +131,7 @@ data:
       fault: []
    -
     id: ""
-    target: test6/*
+    target: test9/*
     verb: POST
     authType: Application & Application User
     throttlingPolicy: Unlimited
