@@ -95,7 +95,7 @@ data:
       fault: []
    -
     id: ""
-    target: /*
+    target: aaa/*
     verb: PUT
     authType: Application & Application User
     throttlingPolicy: Unlimited
