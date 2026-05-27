@@ -131,6 +131,18 @@ data:
       fault: []
    -
     id: ""
+    target: test/*
+    verb: POST
+    authType: Application & Application User
+    throttlingPolicy: Unlimited
+    scopes: []
+    usedProductIds: []
+    operationPolicies:
+      request: []
+      response: []
+      fault: []
+   -
+    id: ""
     target: /*
     verb: PATCH
     authType: Application & Application User
