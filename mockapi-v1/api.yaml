@@ -1,0 +1,155 @@
+type: api
+version: v4.5.0
+data:
+  id: bddf5ee7-6080-477d-8e04-e24d7428903f
+  name: mockapi
+  context: /mockapi
+  version: v1
+  provider: admin
+  lifeCycleStatus: PUBLISHED
+  responseCachingEnabled: false
+  cacheTimeout: 300
+  hasThumbnail: false
+  isDefaultVersion: false
+  isRevision: false
+  revisionId: 0
+  enableSchemaValidation: false
+  enableSubscriberVerification: false
+  type: HTTP
+  audiences:
+   - all
+  transport:
+   - http
+   - https
+  tags: []
+  policies:
+   - Unlimited
+  organizationPolicies: []
+  authorizationHeader: Authorization
+  apiKeyHeader: ApiKey
+  securityScheme:
+   - oauth_basic_auth_api_key_mandatory
+   - oauth2
+  visibility: PUBLIC
+  visibleRoles: []
+  visibleTenants: []
+  visibleOrganizations:
+   - carbon.super
+  mediationPolicies: []
+  subscriptionAvailability: CURRENT_TENANT
+  subscriptionAvailableTenants: []
+  additionalProperties: []
+  additionalPropertiesMap: {}
+  accessControl: NONE
+  accessControlRoles: []
+  businessInformation: {}
+  corsConfiguration:
+    corsConfigurationEnabled: false
+    accessControlAllowOrigins:
+     - '*'
+    accessControlAllowCredentials: false
+    accessControlAllowHeaders:
+     - authorization
+     - Access-Control-Allow-Origin
+     - Content-Type
+     - SOAPAction
+     - apikey
+     - Internal-Key
+    accessControlAllowMethods:
+     - GET
+     - PUT
+     - POST
+     - DELETE
+     - PATCH
+     - OPTIONS
+  websubSubscriptionConfiguration:
+    enable: false
+    secret: ""
+    signingAlgorithm: SHA1
+    signatureHeader: x-hub-signature
+  createdTime: "1779848060579"
+  lastUpdatedTimestamp: "1779848061084"
+  lastUpdatedTime: 2026-05-27 07:44:21.084
+  endpointConfig:
+    endpoint_type: http
+    sandbox_endpoints:
+      url: https://localhost:9444/publisher/apis/create/rest
+    production_endpoints:
+      url: https://localhost:9444/publisher/apis/create/rest
+  endpointImplementationType: ENDPOINT
+  subtypeConfiguration:
+    subtype: DEFAULT
+  scopes: []
+  operations:
+   -
+    id: ""
+    target: /*
+    verb: GET
+    authType: Application & Application User
+    throttlingPolicy: Unlimited
+    scopes: []
+    usedProductIds: []
+    operationPolicies:
+      request: []
+      response: []
+      fault: []
+   -
+    id: ""
+    target: /*
+    verb: PUT
+    authType: Application & Application User
+    throttlingPolicy: Unlimited
+    scopes: []
+    usedProductIds: []
+    operationPolicies:
+      request: []
+      response: []
+      fault: []
+   -
+    id: ""
+    target: /*
+    verb: POST
+    authType: Application & Application User
+    throttlingPolicy: Unlimited
+    scopes: []
+    usedProductIds: []
+    operationPolicies:
+      request: []
+      response: []
+      fault: []
+   -
+    id: ""
+    target: /*
+    verb: DELETE
+    authType: Application & Application User
+    throttlingPolicy: Unlimited
+    scopes: []
+    usedProductIds: []
+    operationPolicies:
+      request: []
+      response: []
+      fault: []
+   -
+    id: ""
+    target: /*
+    verb: PATCH
+    authType: Application & Application User
+    throttlingPolicy: Unlimited
+    scopes: []
+    usedProductIds: []
+    operationPolicies:
+      request: []
+      response: []
+      fault: []
+  categories: []
+  keyManagers:
+   - all
+  advertiseInfo:
+    advertised: false
+    apiOwner: admin
+    vendor: WSO2
+  gatewayVendor: wso2
+  gatewayType: wso2/synapse
+  asyncTransportProtocols: []
+  egress: false
+  organizationId: carbon.super
